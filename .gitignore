@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.md
+!README.md
+
+# Models (downloaded at runtime)
+.paddleocr/
+paddlevl/
+
+# PyInstaller
+SmartDocParser.spec
